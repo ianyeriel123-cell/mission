@@ -1,7 +1,7 @@
 // Mission service worker. __PRECACHE__ and __VERSION__ are filled in by scripts/postbuild.mjs.
 // Offline after first load: precache the built files, serve cache-first, navigations fall back to index.html.
-const VERSION = '1407631bfb'
-const PRECACHE = JSON.parse('["./","./apple-touch-icon.png","./assets/index-BxyCb9zv.js","./assets/index-CIb0idwz.css","./fighter.jpg","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./index.html","./manifest.webmanifest"]')
+const VERSION = '3e2b242032'
+const PRECACHE = JSON.parse('["./","./apple-touch-icon.png","./assets/index-D7iTxCwR.js","./assets/index-ptB5BH1J.css","./fighter.jpg","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./index.html","./manifest.webmanifest"]')
 const CACHE = `mission-${VERSION}`
 const scope = self.registration.scope
 const abs = (p) => new URL(p, scope).href
